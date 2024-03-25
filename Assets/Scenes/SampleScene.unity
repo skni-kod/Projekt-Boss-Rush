@@ -473,6 +473,7 @@ GameObject:
   - component: {fileID: 868051753}
   - component: {fileID: 868051752}
   - component: {fileID: 868051751}
+  - component: {fileID: 868051754}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -536,6 +537,22 @@ Transform:
   - {fileID: 13141166}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &868051754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868051750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30b0b578f2f59340a6ccbf59547a03f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chainLength: 15
+  particleLifeTime: 15
+  smellParticleInitialLocation: {fileID: 0}
+  smellParticlePrefab: {fileID: 4956781198366026874, guid: 88ca1d6fa1e5b8940b6352a3be9fdfdc, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
