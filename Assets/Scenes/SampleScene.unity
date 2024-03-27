@@ -549,10 +549,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30b0b578f2f59340a6ccbf59547a03f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialChainLength: 15
   chainLength: 15
-  particleLifeTime: 15
-  smellParticleInitialLocation: {fileID: 0}
-  smellParticlePrefab: {fileID: 4956781198366026874, guid: 88ca1d6fa1e5b8940b6352a3be9fdfdc, type: 3}
+  activeChainLength: 0
+  markerLifeTime: 15
+  mergeRange: 2
+  scentMarkerPrefab: {fileID: 4956781198366026874, guid: 88ca1d6fa1e5b8940b6352a3be9fdfdc, type: 3}
+  scentMarkersContainer: {fileID: 0}
+  enableAutoSpawn: 1
+  enableDrawGizmos: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
